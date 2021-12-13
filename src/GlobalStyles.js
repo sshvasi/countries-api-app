@@ -9,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         --family: Roboto, sans-serif;
         --fs-sm: 14px;
         --fs-md: 16px;
+        --fs-lg: 28px;
         --fw-light: 300;
         --fw-normal: 400;
         --fw-bold: 800;
@@ -34,5 +35,9 @@ export const GlobalStyle = createGlobalStyle`
         font-family: var(--family);
         font-weight: var(--fw-light);
         color: var(--colors-text);
+    }
+
+    a {
+        color: inherit;
     }
 `;
