@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import { useEffect, useState } from 'react';
-import { IoMoon, IoMoonOutline, IoSunny } from 'react-icons/io5';
+import { IoMoon, IoSunny } from 'react-icons/io5';
 import { Container } from './Container';
 
 const HeaderOuter = styled.header`
     background-color: var(--colors-elements);
+    box-shadow: var(--colors-shadow);
 `;
 
 const HeaderInner = styled.div`

@@ -17,19 +17,24 @@ export const GlobalStyle = createGlobalStyle`
         --fw-semi-bold: 600;
         --fw-bold: 800;
 
-        --radii: 0.5rem;
+        --radii: 5px;
     }
 
     body[data-theme='dark'] { 
         --colors-bg: hsl(207, 26%, 17%);
         --colors-text: hsl(0, 0%, 100%);
         --colors-elements: hsl(209, 23%, 22%);
+        --colors-placeholder: hsl(0, 0%, 100%);
+        --color-search: hsl(0, 0%, 100%);
     }
     body[data-theme='light'] {
         --colors-bg: hsl(0, 0%, 98%);
         --colors-text: hsl(200, 15%, 8%);
         --colors-elements: hsl(0, 0%, 100%);
         --colors-input: hsl(0, 0%, 52%);
+        --colors-shadow: 1px 1px 5px #f2f2f2;
+        --colors-placeholder: #c4c4c4;
+        --colors-search: #b2b2b2;
     }
 
     body {
