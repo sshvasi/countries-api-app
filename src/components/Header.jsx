@@ -19,6 +19,7 @@ const HeaderInner = styled.div`
 const Title = styled.a.attrs({ href: '/' })`
     font-size: var(--fs-xl);
     font-weight: var(--fw-bold);
+    letter-spacing: 1px;
     text-decoration: none;
     color: var(--colors-text);
 

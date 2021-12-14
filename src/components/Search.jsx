@@ -33,7 +33,7 @@ const Input = styled.input.attrs({
     &::placeholder {
         font-family: var(--family);
         font-weight: var(--fw-light);
-        font-size: var(--fs-xs);
+        font-size: var(--fs-sm);
         color: var(--colors-text);
     }
 

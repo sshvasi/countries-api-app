@@ -13,8 +13,9 @@ export const CustomSelect = styled(Select).attrs({
             cursor: 'pointer',
             height: '52px',
             padding: '0.25rem',
+            borderRadius: 'var(--radii)',
         }),
-        option: (provided, state) => ({
+        option: (provided) => ({
             ...provided,
             backgroundColor: 'var(--colors-elements)',
             color: 'var(--colors-text)',
@@ -29,10 +30,11 @@ export const CustomSelect = styled(Select).attrs({
         menu: (provided) => ({
             ...provided,
             boxShadow: 'var(--colors-shadow)',
+            borderRadius: 'var(--radii)',
         }),
     },
 })`
-    width: 200;
+    width: 200px;
     border-radius: var(--radii);
     font-family: var(--family);
     border: none;
@@ -40,7 +42,7 @@ export const CustomSelect = styled(Select).attrs({
 
     & * {
         font-family: var(--family) !important;
-        font-size: var(--fs-xs) !important;
+        font-size: var(--fs-sm) !important;
     }
 
     & > div[id] {
