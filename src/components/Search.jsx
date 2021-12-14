@@ -33,11 +33,19 @@ const Input = styled.input.attrs({
     font-weight: var(--fw-light);
     color: var(--colors-text);
 
+    @media (max-width: 425px) {
+        font-size: var(--fs-xs) !important;
+    }
+
     &::placeholder {
         font-family: var(--family);
         font-weight: var(--fw-light);
         font-size: var(--fs-md);
         color: var(--colors-placeholder);
+
+        @media (max-width: 425px) {
+            font-size: var(--fs-xs) !important;
+        }
     }
 
     &::-ms-clear {

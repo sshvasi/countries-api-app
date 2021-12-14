@@ -26,18 +26,10 @@ const Title = styled.a.attrs({ href: '/' })`
     @media (max-width: 768px) {
         font-size: var(--fs-lg);
     }
-
-    @media (max-width: 425px) {
-        font-size: var(--fs-md);
-    }
-
-    @media (max-width: 320px) {
-        font-size: var(--fs-sm);
-    }
 `;
 
 const ThemeText = styled.span`
-    @media (max-width: 320px) {
+    @media (max-width: 768px) {
         display: none;
     }
 `;
@@ -53,12 +45,7 @@ const ThemeSwitcher = styled.div`
     text-transform: capitalize;
 
     @media (max-width: 768px) {
-        font-size: var(--fs-xs);
-        font-weight: var(--fw-semi-bold);
-    }
-
-    @media (max-width: 320px) {
-        font-size: var(--fs-md);
+        font-size: var(--fs-xl);
         font-weight: var(--fw-bold);
     }
 `;

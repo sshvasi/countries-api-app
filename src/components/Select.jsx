@@ -42,6 +42,10 @@ export const CustomSelect = styled(Select).attrs({
     & * {
         font-family: var(--family) !important;
         font-size: var(--fs-md) !important;
+
+        @media (max-width: 425px) {
+            font-size: var(--fs-xs) !important;
+        }
     }
 
     & > div[id] {

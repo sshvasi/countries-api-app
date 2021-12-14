@@ -20,7 +20,6 @@ const ControlsOuter = styled.div`
     @media (max-width: 768px) {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.5rem;
     }
 `;
 
