@@ -12,7 +12,7 @@ const Label = styled.label`
     border-radius: var(--radii);
     cursor: text;
     box-shadow: var(--colors-shadow);
-    color: var(--colors-text);
+    color: var(--colors-search);
     font-size: var(--fs-lg);
 
     @media (max-width: 768px) {
@@ -34,7 +34,7 @@ const Input = styled.input.attrs({
         font-family: var(--family);
         font-weight: var(--fw-light);
         font-size: var(--fs-sm);
-        color: var(--colors-text);
+        color: var(--colors-placeholder);
     }
 
     &::-ms-clear {

@@ -33,7 +33,7 @@ export const GlobalStyle = createGlobalStyle`
         --colors-elements: hsl(0, 0%, 100%);
         --colors-input: hsl(0, 0%, 52%);
         --colors-shadow: 1px 1px 5px rgba(0,0,0,0.1);
-        --colors-placeholder: #c4c4c4;
+        --colors-placeholder: #848484;
         --colors-search: #b2b2b2;
     }
 
