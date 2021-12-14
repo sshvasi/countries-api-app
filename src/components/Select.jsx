@@ -36,13 +36,12 @@ export const CustomSelect = styled(Select).attrs({
 })`
     width: 200px;
     border-radius: var(--radii);
-    font-family: var(--family);
     border: none;
     font-family: var(--family) !important;
 
     & * {
         font-family: var(--family) !important;
-        font-size: var(--fs-sm) !important;
+        font-size: var(--fs-md) !important;
     }
 
     & > div[id] {

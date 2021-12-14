@@ -28,12 +28,15 @@ const Input = styled.input.attrs({
     border: none;
     outline: none;
     background-color: var(--colors-elements);
+    font-family: var(--family);
+    font-size: var(--fs-md);
+    font-weight: var(--fw-light);
     color: var(--colors-text);
 
     &::placeholder {
         font-family: var(--family);
         font-weight: var(--fw-light);
-        font-size: var(--fs-sm);
+        font-size: var(--fs-md);
         color: var(--colors-placeholder);
     }
 
