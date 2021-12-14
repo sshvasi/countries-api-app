@@ -7,11 +7,14 @@ export const GlobalStyle = createGlobalStyle`
 
     :root {
         --family: Roboto, sans-serif;
+        --fs-xs: 12px;
         --fs-sm: 14px;
         --fs-md: 16px;
-        --fs-lg: 28px;
+        --fs-lg: 20px;
+        --fs-xl: 28px;
         --fw-light: 300;
         --fw-normal: 400;
+        --fw-semi-bold: 600;
         --fw-bold: 800;
 
         --radii: 0.5rem;
